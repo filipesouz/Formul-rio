@@ -1,0 +1,76 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+ body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: url(./img2/natalie-chaney-zhUzdTgtRP8-unsplash.jpg) center;
+  background-size: cover;
+ }
+.form{
+  width: 320px;
+  height: 380px;
+  border-radius: 20px;
+  background: rgba(0,0,0,0.6);
+}
+.form:hover{
+  background-color: #141414;
+  border: 3px solid midnightblue;
+  transition: 0.3s ease-out;
+}
+.box{
+  display: flex;
+  margin-top: 20px;
+  text-align: center;
+  color: #fff;
+  align-items: center;
+  flex-direction: column;
+}
+.box input{
+  margin: 16px;
+  width: 170px;
+  height: 40px;
+  border-radius: 20px;
+  border-bottom: 2px solid green;
+  text-align: center;
+  background: none;
+  color: #fff;
+  font-family:  'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-weight: 550;
+  font-size: 0.9em;
+}
+.box label{
+  display: flex;
+  flex-direction: column;
+  font-size: 1.2em;
+  font-family:  'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.box button{
+  border-radius: 20px;
+  border-bottom: 2px solid green;
+  text-align: center;
+  background: none;
+  width: 80px;
+  height: 40px;
+  margin-top: 12px;
+  color: #fff;
+  font-size: 0.9em;
+  font-family:'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-weight: 550;
+}
+input:hover{
+  border: 2px solid midnightblue;
+  transition: 0.7s ease-in-out;
+}
+input:active{
+  border-color:  2px solid midnightblue;
+  transition: 0.7s ease-in-out;
+}
+button:hover, button:active{
+  border: 2px solid midnightblue;
+  transition: 0.7s ease-in-out;
+}
